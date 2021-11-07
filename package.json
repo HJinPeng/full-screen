@@ -1,0 +1,25 @@
+{
+  "name": "@jinpengh/full-screen",
+  "version": "1.0.0",
+  "description": "browser full screen",
+  "main": "./dist/index.js",
+  "module": "./es/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "serve": "rollup -c -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fullScreen",
+    "requestFullscreen",
+    "browser"
+  ],
+  "author": "jinpengh",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "@rollup/plugin-babel": "^5.3.0",
+    "rollup": "^2.59.0"
+  }
+}
